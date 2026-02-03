@@ -1,0 +1,5 @@
+function greet(name) {
+    return "Hello, ${name}!";
+}
+var message = greet("World");
+console.log(message);
